@@ -43,11 +43,14 @@ public class Main {
         Integer integer = Integer.valueOf("1243");
         Double aDouble = Double.MAX_VALUE;
 
+        Double aDouble2 = Double.MAX_VALUE;
+
         System.out.println(testByteValue);
     }
 
     public void testMethod() {
         int someValue = 5;
         Double aDouble = Double.valueOf("123.5");
+        System.out.println(aDouble);
     }
 }
